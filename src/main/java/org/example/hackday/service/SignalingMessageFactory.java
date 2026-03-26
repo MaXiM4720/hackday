@@ -1,9 +1,9 @@
 package org.example.hackday.service;
 
 
-import com.example.signaling.model.Participant;
-import com.example.signaling.model.Room;
-import com.example.signaling.model.message.*;
+import org.example.hackday.model.Participant;
+import org.example.hackday.model.Room;
+import org.example.hackday.model.message.*;
 import org.springframework.stereotype.Service;
 
 import java.util.Comparator;

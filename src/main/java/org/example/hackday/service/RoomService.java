@@ -1,10 +1,10 @@
 package org.example.hackday.service;
 
-import com.example.signaling.exception.RoomNotFoundException;
-import com.example.signaling.exception.ValidationException;
-import com.example.signaling.model.Participant;
-import com.example.signaling.model.Room;
-import com.example.signaling.util.RoomIdGenerator;
+import org.example.hackday.exception.RoomNotFoundException;
+import org.example.hackday.exception.ValidationException;
+import org.example.hackday.model.Participant;
+import org.example.hackday.model.Room;
+import org.example.hackday.util.RoomIdGenerator;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;

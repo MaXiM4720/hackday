@@ -1,6 +1,6 @@
 package org.example.hackday.service;
 
-import com.example.signaling.model.SessionContext;
+import org.example.hackday.model.SessionContext;
 import org.springframework.stereotype.Service;
 import org.springframework.web.socket.WebSocketSession;
 

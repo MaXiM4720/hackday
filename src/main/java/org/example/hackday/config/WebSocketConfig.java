@@ -1,6 +1,6 @@
 package org.example.hackday.config;
 
-import com.example.signaling.handler.SignalingWebSocketHandler;
+import org.example.hackday.handler.SignalingWebSocketHandler;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
