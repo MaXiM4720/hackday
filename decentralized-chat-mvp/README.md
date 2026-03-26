@@ -29,7 +29,7 @@ The backend should:
    ```
 2. Copy env file:
    ```bash
-   cp .env.example .env
+   cp .env .env
    ```
 3. Set your signaling server URL in `.env`:
    ```env
