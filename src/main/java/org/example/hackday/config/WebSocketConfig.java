@@ -18,7 +18,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
     public WebSocketConfig(
             SignalingWebSocketHandler signalingWebSocketHandler,
-            @Value("${app.cors.allowed-origins}") List<String> allowedOrigins
+            @Value("${app.cors.allowed-origins:http://localhost:3000,http://localhost:5173}") List<String> allowedOrigins
     ) {
         this.signalingWebSocketHandler = signalingWebSocketHandler;
         this.allowedOrigins = allowedOrigins;
