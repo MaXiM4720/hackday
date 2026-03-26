@@ -1,4 +1,12 @@
 package org.example.hackday;
 
-public class SignalingServerApplicationTests {
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SignalingServerApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
 }
