@@ -18,6 +18,7 @@ public class RoomIdGenerator {
             int index = secureRandom.nextInt(ALPHABET.length());
             sb.append(ALPHABET.charAt(index));
         }
+        System.out.println("Generated room ID: " + sb.toString());
         return sb.toString();
     }
 }
